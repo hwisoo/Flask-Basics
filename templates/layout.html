@@ -2,9 +2,11 @@
     <html>
       <head>
         <title>{% block title %}Flask Basics {% endblock %}</title>
+        <link rel='stylesheet' href='/static/styles.css'>
       </head>
       <body>
       <h1>Welcome to Flask </h1>
       {% block content %} {% endblock %}
+      <script src="/static/scripts.js"></script>
       </body>
     </html>
